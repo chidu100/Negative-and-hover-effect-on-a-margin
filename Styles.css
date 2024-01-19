@@ -1,0 +1,34 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+
+  /* Negative Margins Section */
+  .negative-margin-section {
+    border: 2px solid #3498db;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .negative-margin-element {
+    border: 2px solid #e74c3c;
+    padding: 20px;
+    margin: -10px;
+  }
+
+  /* Margin and Hover Effects Section */
+  .hover-margin-section {
+    border: 2px solid #2ecc71;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: margin 0.3s ease-in-out;
+  }
+
+  .hover-margin-section:hover {
+    background-color: #3498db;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
