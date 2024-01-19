@@ -32,3 +32,28 @@ body {
     margin-left: 20px;
     margin-right: 20px;
   }
+
+ .footer {
+    border: 2px solid gold;
+    padding: 20px;
+    margin: 20px;
+    /* display: none;  */
+ }
+
+ .footer:hover {
+    display: block;
+    border: none;
+    text-align: center;
+ }
+
+ .hidden-element {
+    display: none;
+  }
+
+  .show-on-hover:hover + .hidden-element,
+  .hidden-element:hover {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    display: block;
+  }
